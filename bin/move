@@ -9,7 +9,7 @@ puts "Where would you like to go?"
 input = gtes.strip
 index = input_to_index(input)
 
-move(array,index)
+move(board,index)
 
 display_board(board)
 
