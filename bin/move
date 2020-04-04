@@ -3,6 +3,15 @@
 require_relative '../lib/move.rb'
 
 puts "Welcome to Tic Tac Toe!"
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
+
+input = gtes.strip
+index = input_to_index(input)
+
+move(array,index)
+
+display_board(board)
+
 
 # Code your CLI Here
